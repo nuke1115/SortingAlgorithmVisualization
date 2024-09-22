@@ -75,3 +75,24 @@ SetBarPos : 입력받은 인덱스에 해당하는 Bar의 높이를 입력받은 value에 해당하는 높
 std::this_thread::sleep_for(std::chrono::nanoseconds(delay));
 
 이 코드를 실행이 잠시 지연되길 원하는 구간 앞에 작성해둡니다.
+
+
+작성한 정렬 알고리즘을 리눅스 환경에서 빌드하기 위해선 관련 파일을 Makefile에 추가해야 합니다.
+만약 작성한 정렬 알고리즘이 `Sort.cpp`라면 아래와 같이 Makefile을 수정하면 됩니다.
+
+\*NOTE: 세 번째 줄 마지막 항목으로 `Sort.o`가 추가되었습니다.
+```
+$(TARGET): $(SRC)/src/main.cpp \
+       Applications.o ArrayManager.o BarManager.o ExecuteManager.o InputManager.o SortingAlgorithmManager.o WindowManager.o \
+       BubbleSort.o HoareQuickSort.o MergeSort.o FisherYates.o InsertionSort.o SelectionSort.o Sort.o
+	$(CXX) $(CXX_FLAGS) $^ -o $@ -I $(ALGO) -I $(HEADER) $(LIBS)
+	mkdir -p $(BUILD)
+	mv *.o $(BUILD)
+	mv $@ $(BUILD)
+```
+
+\*NOTE: 아래의 코드 블록을 Makefile에서 `clean:` 직전에 추가하세요.
+```
+Sort.o: $(ALGO)/Implements/Sort.cpp
+	$(CXX) $(CXX_FLAGS) -c $^ -o $@ -I $(ALGO) -I $(HEADER) $(LIBS)
+```
