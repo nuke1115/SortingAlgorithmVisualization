@@ -21,7 +21,7 @@ public:
     }
 
     void Shuffle(BarManager& barManager, ArrayManager& arrayManager);
-    void Sort(std::string& sortingAlgorithmNumber,BarManager& barManager, ArrayManager& arrayManager);
+    void Sort(std::string& sortingAlgorithmName,BarManager& barManager, ArrayManager& arrayManager);
 };
 
 #endif // !SORTING_ALGORITHM_MANAGER_N_HEADER

@@ -1,0 +1,11 @@
+freetype is distributed under the FTL license or the GPL license
+libjpeg is in the public domain
+stb_image is in the public domain
+OpenAL Soft is distributed under the LGPL license
+libogg is distributed under the BSD 3 license
+libvorbis is distributed under the BSD 3 license
+libflac is distributed under the BSD 3 license
+
+
+================
+이렇게 쓰는게 맞나...?

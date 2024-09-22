@@ -5,25 +5,25 @@ void SortingAlgorithmManager::Shuffle(BarManager& barManager, ArrayManager& arra
     FisherYates(arrayManager, barManager, _delayTime);
 }
 
-void SortingAlgorithmManager::Sort(std::string& sortingAlgorithmNumber, BarManager& barManager, ArrayManager& arrayManager)
+void SortingAlgorithmManager::Sort(std::string& sortingAlgorithmName, BarManager& barManager, ArrayManager& arrayManager)
 {
-    if (!sortingAlgorithmNumber.compare("BubbleSort"))
+    if (!sortingAlgorithmName.compare("BubbleSort"))
     {
         BubbleSort(arrayManager,barManager,_delayTime);
     }
-    else if (!sortingAlgorithmNumber.compare("SelectionSort"))
+    else if (!sortingAlgorithmName.compare("SelectionSort"))
     {
         SelectionSort(arrayManager,barManager,_delayTime);
     }
-    else if (!sortingAlgorithmNumber.compare("InsertionSort"))
+    else if (!sortingAlgorithmName.compare("InsertionSort"))
     {
         InsertionSort(arrayManager,barManager,_delayTime);
     }
-    else if (!sortingAlgorithmNumber.compare("HoareQuickSort"))
+    else if (!sortingAlgorithmName.compare("HoareQuickSort"))
     {
         HoareQuickSort(arrayManager,barManager,_delayTime);
     }
-    else if (!sortingAlgorithmNumber.compare("MergeSort"))
+    else if (!sortingAlgorithmName.compare("MergeSort"))
     {
         MergeSort(arrayManager,barManager,_delayTime);
     }

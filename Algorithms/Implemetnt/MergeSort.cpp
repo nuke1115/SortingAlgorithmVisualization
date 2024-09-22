@@ -32,7 +32,6 @@ void MergeSortFunc(int* array, int size, BarManager& barManager, int delay, int 
     //гуд║╠Б
     for (int i = 0, leftIndex = 0, rightIndex = 0; i < size; i++)
     {
-        std::this_thread::sleep_for(std::chrono::nanoseconds(delay));
         if (leftIndex < leftSize && rightIndex < rightSize)
         {
             if (left[leftIndex] <= right[rightIndex])
@@ -57,7 +56,8 @@ void MergeSortFunc(int* array, int size, BarManager& barManager, int delay, int 
             array[i] = right[rightIndex];
             rightIndex++;
         }
-        barManager.SetBarPos(startIndex + i, array[i]);
+        std::this_thread::sleep_for(std::chrono::nanoseconds(delay));
+        barManager.SetBarHeight(startIndex + i, array[i]);
     }
 
 

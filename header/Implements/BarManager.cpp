@@ -58,7 +58,7 @@ void BarManager::SwapBar(int index1, int index2)
     }
 }
 
-void BarManager::SetBarPos(int indexPos, int value)
+void BarManager::SetBarHeight(int indexPos, int value)
 {
     float barHeightUpper = _screenHeight - (_barHeightBase * value);
     float barLeftCoord = indexPos * _barWidth, barRightCoord = (indexPos + 1) * _barWidth;

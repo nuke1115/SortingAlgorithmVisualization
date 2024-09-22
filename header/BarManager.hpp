@@ -38,7 +38,7 @@ public:
 
     void SetColor(int index, const sf::Color& color);
     void SwapBar(int index1, int index2);
-    void SetBarPos(int indexPos, int value);
+    void SetBarHeight(int indexPos, int value);
 
 
     inline sf::VertexArray* GetVertexArrayPointer()

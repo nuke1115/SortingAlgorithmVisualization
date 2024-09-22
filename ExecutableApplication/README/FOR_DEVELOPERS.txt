@@ -1,0 +1,77 @@
+만약 프로그램에 포함되어있지 않는 정렬 알고리즘을 이 프로그램으로 실행시키고싶다면, 이 문서를 읽어주세요
+
+해당 프로그램은 정렬 알고리즘의 이름을 입력받으면, 다음 과정을 거쳐서 정렬을 진행하게됩니다.
+
+
+입력
+ExecuteManager에서 SortingAlgorithmManager의 Sort함수를 실행
+Sort함수에서 어떤 알고리즘인지 판별
+알고리즘 호출
+정렬과정중에 BarManager의 함수들을 호출하며, Bar(화면에 출력되는 흰색 막대기들)의 색,위치를 조작합니다.
+
+
+여기서 원하는 정렬 알고리즘을 프로그램에서 실행시키려면, 다음과 같은 클래스들과 함수를 수정해야합니다.
+
+SortingAlgorithmManager.hpp , .cpp
+
+.hpp 파일에 자신이 만든 정렬 알고리즘의 헤더파일을 include해줍니다.
+그리고, Sort함수에
+
+else if (!sortingAlgorithmName.compare("키워드_입력"))
+{
+    알고리즘_함수_이름(arrayManager,barManager,_delayTime);
+}
+
+"키워드_입력" 이라고 적혀있는 부분엥, 정렬 함수 호출시에 입력할 정렬알고리즘의 이름을 띄어쓰기 없이 작성하고,
+알고리즘_함수_이름에 함수 식별자를 작성하여 복사 붙여넣기를 합니다.
+
+
+
+이제 알고리즘 부분입니다.
+
+
+먼저 알고리즘 함수에 다음과 같은 헤더파일들을 include 해줍니다.
+
+
+ArrayManager.hpp
+BarManager.hpp
+SFML/Graphics/Color.hpp
+thread
+chrono
+
+
+알고리즘 함수 호출부분은 다음과 같이 작성되는것이 권장됩니다.
+
+void 함수_이름(ArrayManager& arrayManager, BarManager& barManager, int delay);
+
+위의 예시와같이 작성이 안되어도 상관은 없지만, 저렇게 하는것을 권장합니다.
+
+저렇게 한 다음에, 저 함수로 정렬 알고리즘 함수를 호출하는 방법으로 짜도 됩니다. (실제로 본 프로그램의 재귀함수를 쓰는 몇몇 정렬 알고리즘은 이렇게 했습니다.)
+
+
+그런 다음에, arrayManager와 barManager의 함수들을 호출하며, 정렬되는 과정을 내부 배열과 화면에 업데이트 해줍니다.
+
+정렬 알고리즘 내부에서 호출되야하는 arrayManager와 barManager의 함수들은 다음과 같습니다.
+
+
+ArrayManager:
+
+getArray: 배열의 포인터를 반환합니다.
+
+getArrayCount: 배열의 원소의 갯수를 반환합니다.
+
+
+BarManager:
+
+SetColor : 입력받은 인덱스에 해당하는 Bar의 색상을 입력받은 색으로 변경합니다.
+
+SwapBar : 입력받은 인덱스에 해당하는 두개의 Bar의 위치를 교환합니다.
+
+SetBarPos : 입력받은 인덱스에 해당하는 Bar의 높이를 입력받은 value에 해당하는 높이로 다시 정합니다.
+
+
+다음으로 지연시간은 이렇게 코드를 작성하면 됩니다
+
+std::this_thread::sleep_for(std::chrono::nanoseconds(delay));
+
+이 코드를 실행이 잠시 지연되길 원하는 구간 앞에 작성해둡니다.

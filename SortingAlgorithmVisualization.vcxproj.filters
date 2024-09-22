@@ -111,4 +111,12 @@
       <Filter>알고리즘들</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="ExecutableApplication\README\README.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="ExecutableApplication\README\FOR_DEVELOPERS.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

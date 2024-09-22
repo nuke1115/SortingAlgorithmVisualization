@@ -119,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -158,6 +159,10 @@
     <ClInclude Include="header\InputManager.hpp" />
     <ClInclude Include="header\SortingAlgorithmManager.hpp" />
     <ClInclude Include="header\WindowManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ExecutableApplication\README\FOR_DEVELOPERS.txt" />
+    <Text Include="ExecutableApplication\README\README.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
