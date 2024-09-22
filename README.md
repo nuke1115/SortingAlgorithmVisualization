@@ -86,14 +86,14 @@ HoareQuickSort
 
 
 
-이 내용들은 README폴더의 README.txt파일에도 작성되어있습니다
+이 내용들은 [README](ExecutableApplication/README)폴더의 [README.txt](ExecutableApplication/README/README.txt)파일에도 작성되어있습니다
 
 
 3.기타
 ==
 
 본인이 정렬 알고리즘을 만들어서 빌드하여 실행시킬수도 있습니다.
-자세한 내용은 README폴더의 FOR_DEVELOPERS.txt 파일을 참고해주세요
+자세한 내용은 [README](ExecutableApplication/README)폴더의 [FOR_DEVELOPERS.txt](ExecutableApplication/README/FOR_DEVELOPERS.txt) 파일을 참고해주세요
 
 4.연락처
 ==
