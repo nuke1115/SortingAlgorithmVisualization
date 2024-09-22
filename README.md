@@ -6,6 +6,10 @@ SortingAlgorithmVisualization
 3. 기타
 4. 연락처
 
+|정렬 전|정렬 후|
+|-|-|
+|![unsorted](assets/unsorted.png)|![sorted](assets/sorted.png)|
+
 1.설명
 ==
 정렬 알고리즘의 정렬 과정을 보여주는 프로그램입니다.
