@@ -24,6 +24,11 @@ SortingAlgorithmVisualization
 > $ make
 > $ ./build/main
 > ```
+>
+> 빌드 의존성:
+> ```
+> SFML
+> ```
 
 명령어는 다음과 같습니다.
 
