@@ -24,99 +24,99 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="header\Implements\Applications.cpp">
-      <Filter>헤더 파일\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="header\Implements\ArrayManager.cpp">
-      <Filter>헤더 파일\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="header\Implements\BarManager.cpp">
-      <Filter>헤더 파일\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="header\Implements\ExecuteManager.cpp">
-      <Filter>헤더 파일\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="header\Implements\InputManager.cpp">
-      <Filter>헤더 파일\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="header\Implements\SortingAlgorithmManager.cpp">
-      <Filter>헤더 파일\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="header\Implements\WindowManager.cpp">
-      <Filter>헤더 파일\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithms\Implemetnt\BubbleSort.cpp">
-      <Filter>알고리즘들\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithms\Implemetnt\FisherYates.cpp">
-      <Filter>알고리즘들\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithms\Implemetnt\HoareQuickSort.cpp">
-      <Filter>알고리즘들\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithms\Implemetnt\InsertionSort.cpp">
-      <Filter>알고리즘들\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithms\Implemetnt\MergeSort.cpp">
-      <Filter>알고리즘들\구현 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithms\Implemetnt\SelectionSort.cpp">
-      <Filter>알고리즘들\구현 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="header\Application.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header\ArrayManager.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header\BarManager.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header\Command.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header\ExecuteManager.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header\InputManager.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header\SortingAlgorithmManager.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header\WindowManager.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Algorithms\BubbleSort.hpp">
-      <Filter>알고리즘들</Filter>
-    </ClInclude>
-    <ClInclude Include="Algorithms\FisherYatesShuffle.hpp">
-      <Filter>알고리즘들</Filter>
-    </ClInclude>
-    <ClInclude Include="Algorithms\HoareQuickSort.hpp">
-      <Filter>알고리즘들</Filter>
-    </ClInclude>
-    <ClInclude Include="Algorithms\InsertionSort.hpp">
-      <Filter>알고리즘들</Filter>
-    </ClInclude>
-    <ClInclude Include="Algorithms\MergeSort.hpp">
-      <Filter>알고리즘들</Filter>
-    </ClInclude>
-    <ClInclude Include="Algorithms\SelectionSort.hpp">
-      <Filter>알고리즘들</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="ExecutableApplication\README\README.txt">
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="ExecutableApplication\README\FOR_DEVELOPERS.txt">
       <Filter>리소스 파일</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\header\Implements\Applications.cpp">
+      <Filter>헤더 파일\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\header\Implements\ArrayManager.cpp">
+      <Filter>헤더 파일\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\header\Implements\BarManager.cpp">
+      <Filter>헤더 파일\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\header\Implements\ExecuteManager.cpp">
+      <Filter>헤더 파일\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\header\Implements\InputManager.cpp">
+      <Filter>헤더 파일\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\header\Implements\SortingAlgorithmManager.cpp">
+      <Filter>헤더 파일\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\header\Implements\WindowManager.cpp">
+      <Filter>헤더 파일\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\src\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\Algorithms\Implemetnt\BubbleSort.cpp">
+      <Filter>알고리즘들\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\Algorithms\Implemetnt\FisherYates.cpp">
+      <Filter>알고리즘들\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\Algorithms\Implemetnt\HoareQuickSort.cpp">
+      <Filter>알고리즘들\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\Algorithms\Implemetnt\InsertionSort.cpp">
+      <Filter>알고리즘들\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\Algorithms\Implemetnt\MergeSort.cpp">
+      <Filter>알고리즘들\구현 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\SortingAlgorithmVisualization\Algorithms\Implemetnt\SelectionSort.cpp">
+      <Filter>알고리즘들\구현 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\Application.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\ArrayManager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\BarManager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\Command.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\ExecuteManager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\InputManager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\SortingAlgorithmManager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\header\WindowManager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\Algorithms\BubbleSort.hpp">
+      <Filter>알고리즘들</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\Algorithms\FisherYatesShuffle.hpp">
+      <Filter>알고리즘들</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\Algorithms\HoareQuickSort.hpp">
+      <Filter>알고리즘들</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\Algorithms\InsertionSort.hpp">
+      <Filter>알고리즘들</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\Algorithms\MergeSort.hpp">
+      <Filter>알고리즘들</Filter>
+    </ClInclude>
+    <ClInclude Include="sourceCode\SortingAlgorithmVisualization\Algorithms\SelectionSort.hpp">
+      <Filter>알고리즘들</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
