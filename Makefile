@@ -1,6 +1,6 @@
 CXX = g++
 CXX_FLAGS = -std=c++20
-LIBS = -lsfml-graphics -lsfml-system -lsfml-window -lpthread -lrt
+LIBS = -lsfml-graphics -lsfml-system -lsfml-window
 
 TARGET = main
 BUILD = build
