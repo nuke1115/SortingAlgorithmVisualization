@@ -1,4 +1,4 @@
-#include "..\SortingAlgorithmManager.hpp"
+#include "../SortingAlgorithmManager.hpp"
 
 void SortingAlgorithmManager::Shuffle(BarManager& barManager, ArrayManager& arrayManager)
 {

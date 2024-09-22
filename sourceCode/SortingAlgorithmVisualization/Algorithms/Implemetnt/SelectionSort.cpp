@@ -1,4 +1,4 @@
-#include "..\SelectionSort.hpp"
+#include "../SelectionSort.hpp"
 
 void SelectionSort(ArrayManager& arrayManager, BarManager& barManager, int delay)
 {

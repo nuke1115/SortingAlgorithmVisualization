@@ -1,4 +1,4 @@
-#include "..\Application.hpp"
+#include "../Application.hpp"
 
 Application::Application(int width, int height, std::string name, int baseArrayCount)
 {

@@ -1,13 +1,13 @@
 #ifndef SORTING_ALGORITHM_MANAGER_N_HEADER
 #define SORTING_ALGORITHM_MANAGER_N_HEADER
-#include "..\header\BarManager.hpp"
-#include "..\header\ArrayManager.hpp"
-#include "..\Algorithms\FisherYatesShuffle.hpp"
-#include "..\Algorithms\BubbleSort.hpp"
-#include "..\Algorithms\SelectionSort.hpp"
-#include "..\Algorithms\InsertionSort.hpp"
-#include "..\Algorithms\HoareQuickSort.hpp"
-#include "..\Algorithms\MergeSort.hpp"
+#include "../header/BarManager.hpp"
+#include "../header/ArrayManager.hpp"
+#include "../Algorithms/FisherYatesShuffle.hpp"
+#include "../Algorithms/BubbleSort.hpp"
+#include "../Algorithms/SelectionSort.hpp"
+#include "../Algorithms/InsertionSort.hpp"
+#include "../Algorithms/HoareQuickSort.hpp"
+#include "../Algorithms/MergeSort.hpp"
 #include <string>
 
 class SortingAlgorithmManager

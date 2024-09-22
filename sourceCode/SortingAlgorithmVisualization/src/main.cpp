@@ -1,4 +1,4 @@
-#include "..\header\Application.hpp"
+#include "../header/Application.hpp"
 #include <string>
 
 int main()

@@ -1,4 +1,4 @@
-#include "..\MergeSort.hpp"
+#include "../MergeSort.hpp"
 
 void MergeSortFunc(int* array, int size, BarManager& barManager, int delay, int startIndex)
 {

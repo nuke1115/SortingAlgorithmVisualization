@@ -2,7 +2,7 @@
 #define BAR_MANAGER_N_HEADER
 #include <SFML/Graphics/VertexArray.hpp>
 #include <SFML/Graphics/Color.hpp>
-#include "..\header\ArrayManager.hpp"
+#include "../header/ArrayManager.hpp"
 
 
 class BarManager

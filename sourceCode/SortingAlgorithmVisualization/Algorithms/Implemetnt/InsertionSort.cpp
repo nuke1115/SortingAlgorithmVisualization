@@ -1,4 +1,4 @@
-#include "..\InsertionSort.hpp"
+#include "../InsertionSort.hpp"
 
 void InsertionSort(ArrayManager& arrayManager, BarManager& barManager, int delay)
 {
