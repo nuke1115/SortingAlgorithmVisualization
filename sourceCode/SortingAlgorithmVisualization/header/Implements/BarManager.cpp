@@ -1,4 +1,4 @@
-#include "..\BarManager.hpp"
+#include "../BarManager.hpp"
 
 void BarManager::CreateBars(int elementCount, int elementArray[])
 {

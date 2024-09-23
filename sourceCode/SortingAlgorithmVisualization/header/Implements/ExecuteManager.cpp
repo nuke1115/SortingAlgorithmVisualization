@@ -1,4 +1,4 @@
-#include "..\ExecuteManager.hpp"
+#include "../ExecuteManager.hpp"
 
 void ExecuteManager::ExecuteCommand(Command& command, BarManager& barManager, ArrayManager& arrayManager, volatile std::atomic<bool>& running)
 {

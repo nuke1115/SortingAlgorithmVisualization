@@ -1,4 +1,4 @@
-#include "..\WindowManager.hpp"
+#include "../WindowManager.hpp"
 
 WindowManager::WindowManager()
 {

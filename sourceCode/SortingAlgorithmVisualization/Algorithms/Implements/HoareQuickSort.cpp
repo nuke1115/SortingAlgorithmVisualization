@@ -1,4 +1,4 @@
-#include "..\HoareQuickSort.hpp"
+#include "../HoareQuickSort.hpp"
 
 
 

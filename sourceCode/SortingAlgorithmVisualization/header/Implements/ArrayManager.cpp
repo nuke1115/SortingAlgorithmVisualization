@@ -1,4 +1,4 @@
-#include "..\ArrayManager.hpp"
+#include "../ArrayManager.hpp"
 
 ArrayManager::~ArrayManager()
 {

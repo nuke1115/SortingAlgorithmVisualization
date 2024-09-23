@@ -4,8 +4,8 @@
 #include <SFML/Graphics/Color.hpp>
 #include <thread>
 #include <chrono>
-#include "..\header\ArrayManager.hpp"
-#include "..\header\BarManager.hpp"
+#include "../header/ArrayManager.hpp"
+#include "../header/BarManager.hpp"
 
 void FisherYates(ArrayManager& arrayManager, BarManager& barManager, int delay);
 

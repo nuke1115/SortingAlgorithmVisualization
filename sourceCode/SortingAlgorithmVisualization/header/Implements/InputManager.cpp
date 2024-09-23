@@ -1,4 +1,4 @@
-#include "..\InputManager.hpp"
+#include "../InputManager.hpp"
 
 void InputManager::GetCommand(Command& command,volatile std::atomic<bool>& running)
 {

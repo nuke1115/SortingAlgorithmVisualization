@@ -1,4 +1,4 @@
-#include "..\BubbleSort.hpp"
+#include "../BubbleSort.hpp"
 
 void BubbleSort(ArrayManager& arrayManager, BarManager& barManager, int delay)
 {

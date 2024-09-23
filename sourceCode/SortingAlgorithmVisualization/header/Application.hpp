@@ -1,11 +1,11 @@
 #ifndef APPLICATION_N_HEADER
 #define APPLICATION_N_HEADER
-#include "..\header\WindowManager.hpp"
-#include "..\header\BarManager.hpp"
-#include "..\header\ExecuteManager.hpp"
-#include "..\header\ArrayManager.hpp"
-#include "..\header\InputManager.hpp"
-#include "..\header\Command.hpp"
+#include "../header/WindowManager.hpp"
+#include "../header/BarManager.hpp"
+#include "../header/ExecuteManager.hpp"
+#include "../header/ArrayManager.hpp"
+#include "../header/InputManager.hpp"
+#include "../header/Command.hpp"
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Window/Event.hpp>
 #include <string>

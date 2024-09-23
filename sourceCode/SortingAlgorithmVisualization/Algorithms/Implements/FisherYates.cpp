@@ -1,4 +1,4 @@
-#include "..\FisherYatesShuffle.hpp"
+#include "../FisherYatesShuffle.hpp"
 
 void FisherYates(ArrayManager& arrayManager, BarManager& barManager, int delay)
 {

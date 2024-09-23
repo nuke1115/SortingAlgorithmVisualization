@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <atomic>
-#include "..\header\Command.hpp"
+#include "../header/Command.hpp"
 
 class InputManager
 {
