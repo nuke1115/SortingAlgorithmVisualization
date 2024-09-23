@@ -40,7 +40,7 @@ void InputManager::GetCommand(Command& command,volatile std::atomic<bool>& runni
             }
             else if (!command.command.compare("Sort"))
             {
-                std::cout << "Enter Sorting Algorithm's name which you want to execute/n";
+                std::cout << "Enter Sorting Algorithm's name which you want to execute\n";
 
                 std::cin >> command.strArg;
             }
